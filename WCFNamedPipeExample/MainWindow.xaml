@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <ListBox x:Name="lstResult" Margin="18,58,10,19"/>
+        <Button x:Name="btnStart" Content="Start Server" HorizontalAlignment="Left" Margin="18,10,0,0" VerticalAlignment="Top" Width="75" Click="btnStart_Click"/>
+        <Button x:Name="btnEnd" Content="Stop Server" HorizontalAlignment="Left" Margin="109,10,0,0" VerticalAlignment="Top" Width="75" Click="btnEnd_Click"/>
+
     </Grid>
 </Window>
